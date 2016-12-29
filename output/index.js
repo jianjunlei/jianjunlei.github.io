@@ -82,7 +82,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  padding-bottom: 30px;\n}\n.jumbotron {\n  position: relative;\n}\n.carbonad {\n  border: none !important;\n}\n.navbar-brand:hover {\n  color: #9d9d9d !important;\n}\n@media (min-width: 992px) {\n  .carbonad {\n    top: 28px !important;\n  }\n}\n.theme-dropdown .dropdown-menu {\n  position: static;\n  display: block;\n  margin-bottom: 20px;\n}\n\n.theme-showcase > p > .btn {\n  margin: 5px 0;\n}\n\n.theme-showcase .navbar .container {\n  width: auto;\n}\n.bs-docs-footer {\n  border-radius: 4px;\n}\n.list-unstyled li {\n  margin-bottom: 10px;\n}\n", ""]);
+	exports.push([module.id, "body {\n  padding-bottom: 30px;\n}\n.jumbotron {\n  position: relative;\n}\n.carbonad {\n  border: none !important;\n}\n.navbar-brand:hover {\n  color: #9d9d9d !important;\n}\n@media (min-width: 992px) {\n  .carbonad {\n    top: 28px !important;\n  }\n}\n.theme-dropdown .dropdown-menu {\n  position: static;\n  display: block;\n  margin-bottom: 20px;\n}\n\n.theme-showcase > p > .btn {\n  margin: 5px 0;\n}\n\n.theme-showcase .navbar .container {\n  width: auto;\n}\n.bs-docs-footer {\n  border-radius: 4px;\n}\n.list-unstyled li {\n  margin-bottom: 10px;\n}\n\n@media screen and (min-width: 992px) {\n  .thumbnail {\n    height: 254.16px;\n  }\n  .caption {\n    border-top: 1px solid #ddd;\n    margin-top: 5px;\n  }\n  div.img {\n    height: 176.17px;\n    position: relative;\n  }\n  div.img>img {\n    max-height: 176.17px;\n    margin: auto;\n    position: absolute;\n    top: 0;\n    bottom: 0;\n    left: 0;\n    right: 0;\n  }\n}\n", ""]);
 
 	// exports
 

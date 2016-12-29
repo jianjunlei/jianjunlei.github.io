@@ -34,3 +34,26 @@ body {
 .list-unstyled li {
   margin-bottom: 10px;
 }
+
+@media screen and (min-width: 992px) {
+  .thumbnail {
+    height: 254.16px;
+  }
+  .caption {
+    border-top: 1px solid #ddd;
+    margin-top: 5px;
+  }
+  div.img {
+    height: 176.17px;
+    position: relative;
+  }
+  div.img>img {
+    max-height: 176.17px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
