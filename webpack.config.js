@@ -1,9 +1,11 @@
+var path = require('path');
+
 module.exports = {
   entry: {
     index: './js/index.js' // 入口文件
   },
   output: {
-    path: 'output',
+    path: path.resolve(__dirname, './output'),
     filename: '[name].js' // 打包输出的文件
   },
   module: {
